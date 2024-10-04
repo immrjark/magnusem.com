@@ -1,0 +1,11 @@
+---
+const today: Date = new Date(); // Obtenemos la fecha actual
+
+const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: '2-digit', day: 'numeric' };
+const formatDate: string = today.toLocaleDateString('en-US', options); // Formateamos la fecha
+---
+  
+<section class="flex items-center justify-between mt-6 text-gray-500 text-xs">
+  <p>All right reserved ©</p>
+  <p>Last Updated: {formatDate}</p>
+</section>

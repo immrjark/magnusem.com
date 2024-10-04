@@ -1,0 +1,17 @@
+---
+import Text from './Text.astro'
+interface Props {
+	title: string
+	subTitle: string
+}
+
+const {title ,subTitle} = Astro.props
+---
+
+<main class="flex items-center justify-center">
+		<section class="flex flex-col items-center justify-center border px-4 sm:px-12 py-2 rounded-xl shadow-md shadow-slate-300 hover:shadow-lg hover:shadow-[#1C7253] hover:border-[#1C7253]">
+			<h1 class="text-6xl text-[#1C7253]">{title}</h1>
+			<p class="text-white/80 text-lg mt-5">{subTitle}</p>
+			<Text/>
+		</section>
+</main>
