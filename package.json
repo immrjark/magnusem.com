@@ -1,7 +1,11 @@
 {
 	"name": "magnusem-dot-com",
 	"type": "module",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"author": {
+		"name": "chema - cz",
+		"url": "https://c12z.io"
+	},
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
